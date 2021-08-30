@@ -4,17 +4,23 @@ Budget Tracker application that allows for offline access and functionality
 
 ## Goal:
 
-The goal was to connect the back end of a front-end fitness application utilizing express and mongoDB. The user should be able to view the most recent exercise, ass new workout plans, view the combined weight of multiple exercise and view the duration of each workout.
+The goal was to utilize indexdb to connect a database in order to be create an application that can enter deposits offline, enter expenses offline and when brought back online adds that data.
 
 ## Issues:
 
-- CRUD actions were a challenge and will be re-visited in order to properly record data. Api.js routes specifically
+- Need to re-visit the webpack config file and connect it properly.
 
 ## Results:
 
-I was able to successfully link to MongoAtlas in order to connect my server to the MongoDB. I was able to use express and connect most of the pages. I was also able to create the workoutSchema in models.
+I was able to successfully use a mongoose database to record transaction data. I was able to use express and connect the pages. I was also able to use the app on and offline.
 
-![Finished Fitness Tracker.](fitness-tracker.png)
+#### Transaction starting point.
+
+![Finished Fitness Tracker.](transaction1.png)
+
+#### After Adding a deposit
+
+![Finished Fitness Tracker.](transaction2.png)
 
 ### Github Link:
 
