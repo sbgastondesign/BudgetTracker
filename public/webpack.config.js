@@ -29,16 +29,21 @@ const config = {
   plugins: [
     new WebpackPwaManifest({
       fingerprints: false,
-      name: 'Newsy app',
-      short_name: 'Newsy',
-      description: 'An application that allows you to view different news articles and save your favorites.',
+      name: 'Budget Tracker app',
+      short_name: 'BudgetTracker',
+      description: 'An application that allows you to save your transactions on and offline.',
       background_color: '#01579b',
       theme_color: '#ffffff',
       'theme-color': '#ffffff',
       start_url: '/',
       icons: [
         {
-          src: path.resolve('assets/images/icons/android-chrome-192x192.png'),
+          src: path.resolve('./icons/icon-192x192.png'),
+          sizes: [96, 128, 192, 256, 384, 512],
+          destination: path.join('assets', 'icons'),
+        },
+        {
+          src: path.resolve('./icons/icon-512x512.png'),
           sizes: [96, 128, 192, 256, 384, 512],
           destination: path.join('assets', 'icons'),
         },
