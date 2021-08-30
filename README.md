@@ -24,15 +24,15 @@ I was able to successfully use a mongoose database to record transaction data. I
 
 ### Github Link:
 
-https://sbgastondesign.github.io/Fitness-Tracker/
+https://github.com/sbgastondesign/BudgetTracker
 
 ### Heroku Link:
 
-https://git.heroku.com/nameless-ocean-85982.git
+https://limitless-fjord-97515.herokuapp.com/
 
 ## Future Updates:
 
-- Revisit get/put routes.
+- Review webpack.
 
 ### License
 
